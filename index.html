@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Mobile Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Site Meta -->
+    <title>RecSys</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Custom & Default Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="preloader">
+      <img class="preloader" src="images/loader.gif" alt="" />
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+      <!-- BEGIN # MODAL LOGIN -->
+      <div
+        class="modal fade"
+        id="login-modal"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+        style="display: none"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Begin # DIV Form -->
+            <div id="div-forms">
+              <form id="login-form">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span class="flaticon-add" aria-hidden="true"></span>
+                </button>
+                <div class="modal-body">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="What you are looking for?"
+                    required
+                  />
+                </div>
+              </form>
+              <!-- End # Login Form -->
+            </div>
+            <!-- End # DIV Form -->
+          </div>
+        </div>
+      </div>
+      <!-- END # MODAL LOGIN -->
+
+      <header class="header">
+        <div class="topbar clearfix">
+          <div class="container">
+            <div class="row-fluid">
+              <div class="col-md-6 col-sm-6 text-left"></div>
+              <!-- end left -->
+              <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                <div class="social"></div>
+                <!-- end social -->
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end topbar -->
+
+        <div class="container">
+          <nav class="navbar navbar-default yamm">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="logo-normal">
+                <a class="navbar-brand" href="index.html"
+                  ><img src="images/logo.png" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown yamm-fw yamm-half">
+                  <a
+                    href="#"
+                    data-toggle="dropdown"
+                    class="dropdown-toggle active"
+                    >Events <b class="fa fa-angle-down"></b
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <h4>Events</h4>
+                            <ul>
+                              <li><a href="events.html" class="menu-button" target="_blank">RecSys 2024</a></li>
+                              <li><a href="https://bekyilma.github.io/RecSysAO23/index.html" class="menu-button" target="_blank">Doctoral School</a></li>
+                              <li><a href="https://bekyilma.github.io/RecSysAO23/CIX.html" class="menu-button" target="_blank">Summer School</a></a></li>
+                              <li><a href="index.html" class="menu-button" target="_blank">RecSys Meetup</a></a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-6 col-sm-6">
+                            <div class="menu-widget text-center">
+                              <div class="image-wrap entry">
+                                <img
+                                  src="upload/course_01.jpg"
+                                  alt=""
+                                  class="img-responsive"
+                                />
+                                <div class="magnifier">
+                                  <a href="#" title=""
+                                    ><i class="flaticon-add"></i
+                                  ></a>
+                                </div>
+                              </div>
+                              <!-- end image-wrap -->
+                              
+                            </div>
+                            <!-- end widget -->
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="events.html">Program</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="iconitem">
+                  <a href="#" data-toggle="modal" data-target="#login-modal"
+                    ><i class="fa fa-search"></i
+                  ></a>
+                </li>
+                <li class="iconitem">
+                  <a class="shopicon" href="events.html"
+                    ><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a
+                  ><a href="#"><img src="upload/logo_un.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- end navbar -->
+        </div>
+        <!-- end container -->
+      </header>
+
+      <section id="home" class="video-section js-height-full">
+        <div class="overlay"></div>
+        <div class="home-text-wrapper relative container">
+          <div class="home-message">
+            <p>Computational Methods for Designing Human-Centered Recommender Systems</p>
+            <small
+              >Recommender Systems (RecSys) are ubiquitous and have become inseparable parts of our everyday lives in applications such as e-
+              commerce, entertainment, and social media, providing personalized
+              user experiences. Their impact is also growing in education, health-
+              care, tourism, transport, and logistics, enhancing decision-making
+              and user engagement. Hence, designing modern day RecSys requires a
+              multi-disciplinary approach, incorporating machine learning,
+              information retrieval, and human-computer interaction (HCI). This
+              tutorial focuses on human-centric RecSys design, emphasizing both
+              computational methods and user-centered principles. Participants
+              will learn fundamental concepts, advanced algorithms, and practical
+              implementation, with case studies linking visual arts and healthcare
+              applications
+            </small>
+            <div class="btn-wrapper">
+              <div class="text-center">
+                <a href="https://bekyilma.github.io/pdf/HC_Recsys24.pdf" target="_blank" class="btn btn-primary wow slideInLeft"
+                  >Read More</a
+                >
+                &nbsp;&nbsp;&nbsp;<a
+                  href="https://web.cvent.com/event/8881cb0e-8a21-4aad-83da-4a5ee72883be/summary"target="_blank"
+                  class="btn btn-default wow slideInRight"
+                  >Enroll Now</a
+                >
+              </div>
+            </div>
+            <!-- end row -->
+          </div>
+        </div>
+        <div class="slider-bottom">
+          <span>Explore <i class="fa fa-angle-down"></i></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 hidden-sm hidden-xs">
+              <div class="custom-module">
+                <img
+                  src="upload/device_01.png"
+                  alt=""
+                  class="img-responsive wow slideInLeft"
+                />
+              </div>
+              <!-- end module -->
+            </div>
+            <!-- end col -->
+            <div class="col-md-8">
+              <div class="custom-module p40l">
+                <h2>Computational Methods for Designing Human-Centered Recommender Systems: <mark>A Case Study Approach Intersecting
+                  Visual Arts and Healthcare</mark><br /></h2>
+
+                <p>
+                  This tutorial approaches Recsys from a human-centred perspective, 
+                  looking at the interface and algorithm studies that advance understanding
+                 of how system designs can be tailored to users’ objectives and
+                needs while taking into account external factors such as commercialization. 
+                This course takes a case study approach to RecSys from an HCI
+                perspective intersecting visual arts with healthcare application. <br /><br />
+                </p>
+
+                <p>
+                  This tutorial is part of a Doctoral course on
+                  Recommender Systems that is being offered as part
+                  of PhD training in the Doctoral School of Computer Science and
+                  Computer Engineering at the University of Luxembourg. 
+                </p>
+
+
+
+                <hr class="invis" />
+
+        
+              <h4>Checkout our <b><a href="https://bekyilma.github.io/RecSysAO23/blog.html"target="_blank" style="color: rgb(137, 6, 6)">Blog</a></b> to see featured student projects from previous editions of the course.</h4>
+
+                <hr class="invis" />
+
+                
+                  <!-- end module -->
+            </div>
+            <!-- end col -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      
+      
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title text-center">
+            <h3>Program</h3>
+            <p style="color: gray">
+              <b
+                >Monday, October 14, 2024, from 9:00 - 12:30</b
+              > at the <a href="https://recsys.acm.org/recsys24/" target="_blank">18th ACM Conference on Recommender Systems (RecSys 2024)</a> Bari, Italy.
+            </p>For detail about the venue and schedule updates, please check the official <a href="https://recsys.acm.org/recsys24/program/" target="_blank">Recsy 2024 conference program  </a> <br> <br> 
+            <a href="https://web.cvent.com/event/8881cb0e-8a21-4aad-83da-4a5ee72883be/summary"target="_blank" class="btn btn-primary">Register Now</a>
+          </div>
+          <!-- end title -->
+
+          <div class="row text-center">
+         
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+
+      <section class="section gb nopadtop">
+        <div class="container">
+            <div class="row event-boxes" style="margin-bottom: 100px;">
+                <div class="col-md-4">
+                    <div class="box m30">
+                        <img src="upload/blog_01.jpg" alt="" class="img-responsive" />
+                        <div class="event-desc">
+                            <small>Part 1</small>
+                            <h4>Introduction: Human-Centered RecSys</h4>
+                            <p>
+                                <li>Personalisation: The Big Picture </li>
+                                <li> Cyber-Physical-Social Systems (CPSS) </li>
+                                <li> Why Human-Centered?</li>
+                                <li>HC Recsys pipeline & a Framework for Modelling</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+    
+                <div class="col-md-4">
+                    <div class="box m30">
+                        <img src="upload/blog_02.jpg" alt="" class="img-responsive" />
+                        <div class="event-desc">
+                            <small>Part 2 A</small>
+                            <h4>HC RecSys Pipeline: A case-study approach </h4>
+                            <p>
+                                <h5><li>Personalized Visual Art Recommendation (VA RecSys)</li></h5>
+                                <li>Problem Formulation</li>
+                                <li>Solutions: Computational methods</li>
+                                <ul>
+                                    <h6><li>Data Representation learning (Unimodal & Multi-modal)</li></h6>
+                                    <h6><li>Transfer learning </li></h6>
+                                    <h6><li>Neural topic modelling  </li></h6>
+                                </ul>
+                                <li>Evaluation Techniques & Results</li>
+                                <ul>
+                                    <h6><li>Offline Experiments</li></h6>
+                                    <h6><li>User Studies </li></h6>
+                                    <h6><li>Online Experiments  </li></h6>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+    
+                <div class="col-md-4">
+                    <div class="box m30">
+                        <img src="upload/blog_03.jpg" alt="" class="img-responsive" />
+                        <div class="event-desc">
+                            <small>Part 2 B</small>
+                            <h4>HC RecSys Pipeline: A case-study approach</h4>
+                            <p>
+                                <h5><li>Personalized Visual Art & Path Recommen- dation: A multi-stakeholder aware approach</li></h5>
+                                <li>Problem Formulation</li>
+                                <li>Solutions: Computational methods</li>
+                                <ul>
+                                    <h6><li>Mixed-Integer Linear Programming (MILP) Algorithms</li></h6>
+                                </ul>
+                                <li>Evaluation Techniques & Results</li>
+                                <ul>
+                                    <h6><li>Offline Experiments</li></h6>
+                                    <h6><li>User Studies </li></h6>
+                                    <h6><li>Online Experiments  </li></h6>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+    
+            <div class="row event-boxes" style="margin-bottom: 100px;">
+                <div class="col-md-4">
+                    <div class="box m30">
+                        <img src="upload/blog_04.jpg" alt="" class="img-responsive" />
+                        <div class="event-desc">
+                            <small>Part 2 C</small>
+                            <h4>VA RecSys for Post-Intensive Care Syndrome (PICS) intervention</h4>
+                            <p>
+                                <li>Problem formulation</li>
+                                <li>Solutions: Unimodal & multimodal VA Recsys </li>
+                                <li>Ensuring safe and sensitive deployment</li>
+                                <li>User evaluation & Results</li>
+                                <li>Lessons learned</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+    
+                <div class="col-md-4 offset-md-4">
+                    <div class="box m30">
+                        <img src="upload/blog_05.jpg" alt="" class="img-responsive" />
+                        <div class="event-desc">
+                            <small>Part 3</small>
+                            <h4>Hands-on</h4>
+                            <p>
+                                <li>Practical exercises on the case studies</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+         
+
+      
+
+      
+            
+            
+
+
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title text-center">
+            <h3>Contact</h3>
+            <p>
+          
+            </p>
+          </div>
+          <!-- end title -->
+
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-6">
+              <div class="teammembers">
+                <div class="entry">
+                  <img src="upload/01_team.png" alt="" class="img-responsive" />
+                  <div class="magnifier">
+                    <div class="visible-buttons1 teambuttons">
+                      <p>
+                        <b>Course Instructor</b><br>
+                      </p>
+                      <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bekyilma/"target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/bek_yilma"target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://scholar.google.com/citations?user=Kvk-7FwAAAAJ&hl=en"target="_blank"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                      <!-- end social -->
+                    </div>
+                  </div>
+                </div>
+                <!-- end box -->
+                <div class="teamdesc">
+                  <h4> <a href="https://bekyilma.github.io/"target="_blank">Dr. Bereket YILMA</a></h4>
+                  <p>University of Luxembourg, Luxembourg</p><br>
+
+                  <b>Course Instructor</b>
+                </div>
+                <!-- end teamdesc -->
+              </div>
+              <!-- end teammembers -->
+            </div>
+            <!-- end col -->
+
+
+            <div class="col-md-8 col-sm-6">
+              <div class="teammembers">
+                <div class="entry">
+                </br>
+             
+
+                
+                <h4 align="center"><span><b>University of Luxembourg</b></span></h4>
+              </br>
+                <p align="center">Maison du Nombre </br> 6, Avenue de la Fonte </br>
+                    L-4364, Esch-sur-Alzette, Luxembourg</p>
+                  </br>
+            <p  align="center"><a  href="mailto:bereket.yilma@uni.lu" style = "color: rgb(223, 35, 35)">bereket.yilma@uni.lu</a></br></p>
+          </br>
+            <p align="center">(+352) 466-644-9732</p>
+
+    
+                </div>
+                <!-- end box -->
+                
+                <!-- end teamdesc -->
+              </div>
+              <!-- end teammembers -->
+            </div>
+            <!-- end col -->
+
+           
+
+
+
+        
+
+
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section> 
+
+      
+
+
+  
+
+      <div class="copyrights">
+        <div class="container">
+          <div class="clearfix">
+            <div class="pull-left">
+              <div class="cop-logo">
+                <a href="#"><img src="images/logo.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="copyright-text"><p align="center" >
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script><a href="https://bekyilma.github.io/" target="_blank" style = "color: rgb(234, 50, 50)"> Bereket A. YILMA</a> | All rights reserved 
+               </p></div>
+          
+      </div>
+            
+      
+          </div>
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end copy -->
+    </div>
+    <!-- end wrapper -->
+
+    <!-- jQuery Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- VIDEO BG PLUGINS -->
+    <script src="js/videobg.js"></script>
+  </body>
+</html>
